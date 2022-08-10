@@ -1,7 +1,5 @@
 console.log('hello world');
 
-
-
 // fetch('https://api.github.com/users/kod570')
 fetch('/data/profile.json')
 .then((response) => response.json())
